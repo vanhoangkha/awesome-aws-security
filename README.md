@@ -24,6 +24,7 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 - [Notable Breaches](#notable-breaches)
 - [Infrastructure Vulnerabilities](#infrastructure-vulnerabilities)
 - [Podcasts & Newsletters](#podcasts--newsletters)
+- [Conferences & Events](#conferences--events-2026)
 - [Contributors](#contributors)
 
 > [!NOTE]
@@ -147,7 +148,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 
 ### Official AWS Resources
 1. [AWS Security Blog](https://aws.amazon.com/blogs/security/) - Official AWS security updates and best practices
-2. [Strengthen S3 Security with Additional AWS Services](https://aws.amazon.com/blogs/security/strengthen-the-security-of-sensitive-data-stored-in-amazon-s3-by-using-additional-aws-services/)
+2. [AWS Security Services Best Practices](https://aws.github.io/aws-security-services-best-practices/) - Official guides for GuardDuty, Security Hub, Macie, Inspector, WAF, Detective, Security Lake, Network Firewall, DNS Firewall
+3. [Strengthen S3 Security with Additional AWS Services](https://aws.amazon.com/blogs/security/strengthen-the-security-of-sensitive-data-stored-in-amazon-s3-by-using-additional-aws-services/)
 3. [IMDSv2 Defense in Depth](https://aws.amazon.com/blogs/security/defense-in-depth-open-firewalls-reverse-proxies-ssrf-vulnerabilities-ec2-instance-metadata-service/)
 4. [Managing KMS Permissions with Grants](https://aws.amazon.com/blogs/security/managing-permissions-with-grants-in-aws-key-management-service/)
 
@@ -366,26 +368,26 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 32. [Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - Comprehensive tool collection
 
 ### Cloud Compliance Tools (2025-2026)
-25. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
-26. [k9 Security](https://www.k9security.io/) - AWS IAM security analysis
+33. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
+34. [k9 Security](https://www.k9security.io/) - AWS IAM security analysis
 
 ### CSPM & CNAPP Tools (2026)
-27. [Wiz](https://www.wiz.io/) - Agentless CNAPP platform
-28. [Orca Security](https://orca.security/) - SideScanning cloud security
-29. [Lacework](https://www.lacework.com/) - Cloud security with anomaly detection
-30. [Aqua Security](https://www.aquasec.com/) - Cloud native security platform
-31. [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Open source cloud security scanner
+35. [Wiz](https://www.wiz.io/) - Agentless CNAPP platform
+36. [Orca Security](https://orca.security/) - SideScanning cloud security
+37. [Lacework](https://www.lacework.com/) - Cloud security with anomaly detection
+38. [Aqua Security](https://www.aquasec.com/) - Cloud native security platform
+39. [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Open source cloud security scanner
 
 ### IaC Security Scanning
-32. [Checkov](https://github.com/bridgecrewio/checkov) - IaC static analysis (Terraform, CloudFormation, K8s)
-33. [Terrascan](https://github.com/tenable/terrascan) - IaC security scanner by Tenable
-34. [tfsec](https://github.com/aquasecurity/tfsec) - Terraform security scanner
-35. [KICS](https://github.com/Checkmarx/kics) - Keeping Infrastructure as Code Secure
+40. [Checkov](https://github.com/bridgecrewio/checkov) - IaC static analysis (Terraform, CloudFormation, K8s)
+41. [Terrascan](https://github.com/tenable/terrascan) - IaC security scanner by Tenable
+42. [tfsec](https://github.com/aquasecurity/tfsec) - Terraform security scanner
+43. [KICS](https://github.com/Checkmarx/kics) - Keeping Infrastructure as Code Secure
 
 ### Runtime Security & SIEM
-36. [SIEM on Amazon OpenSearch](https://github.com/aws-samples/siem-on-amazon-opensearch-service) - AWS SIEM solution
-37. [Wazuh](https://wazuh.com/) - Open source XDR and SIEM
-38. [Elastic Security](https://www.elastic.co/security) - SIEM and endpoint security
+44. [SIEM on Amazon OpenSearch](https://github.com/aws-samples/siem-on-amazon-opensearch-service) - AWS SIEM solution
+45. [Wazuh](https://wazuh.com/) - Open source XDR and SIEM
+46. [Elastic Security](https://www.elastic.co/security) - SIEM and endpoint security
 
 ---
 
@@ -399,8 +401,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 5. [AWS Jam Journey: Security](https://explore.skillbuilder.aws/learn/course/external/view/elearning/9284/aws-jam-journey-security) - AWS Skill Builder
 
 ### Vulnerable-by-Design Environments
-6. [flaws.cloud](http://flaws.cloud/) - Classic AWS misconfiguration challenges
-7. [flaws2.cloud](http://flaws2.cloud/) - Advanced AWS security concepts
+6. [flaws.cloud](https://flaws.cloud/) - Classic AWS misconfiguration challenges
+7. [flaws2.cloud](https://flaws2.cloud/) - Advanced AWS security concepts
 8. [CloudGoat](https://github.com/RhinoSecurityLabs/cloudgoat) - Vulnerable AWS infrastructure deployment - Rhino Security
 9. [OWASP ServerlessGoat](https://github.com/OWASP/Serverless-Goat) - Insecure Lambda application
 10. [OWASP WrongSecrets](https://github.com/commjoen/wrongsecrets) - Secrets management anti-patterns
