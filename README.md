@@ -464,11 +464,13 @@ Understanding past incidents helps prevent future security failures.
 | 2021 | US Municipalities | S3 misconfiguration | [Report](https://www.securitymagazine.com/articles/95704-us-municipalities-suffer-data-breach-due-to-misconfigured-amazon-s3-buckets) |
 | 2024 | Angel One (Financial) | S3 misconfiguration - 440GB | [Report](https://redrobot.online/2025/05/23/financial-brokerage-exposes-440-gb-of-client-data-through-misconfigured-aws-bucket/) |
 | 2025 | Cloud Storage Leaks | 10% of public buckets exposed | [Tenable Report](https://www.cybersecuritydive.com/news/cloud-security-amazon-google-microsoft-tenable-report/751047/) |
-| 2025 | Docker Hub Crypto Mining | Compromised credentials | [Timeline](https://cybersecurityforme.com/amazon-data-breaches-timeline/) |
-| 2026 | AI Credential Hijack | Exposed AWS keys in S3 (8 min attack) | [Report](https://www.itsecuritynews.info/ai-hijacks-aws-cloud-in-8-minutes-via-exposed-keys/) |
+| 2025 | AWS Crypto Mining Campaign | Compromised IAM credentials | [The Hacker News](https://thehackernews.com/search/label/Amazon%20Web%20Services) |
+| 2025 | CodeBreach Vulnerability | CI pipeline weakness (fixed Sep 2025) | [Wiz/CRN](https://www.crn.com/news/security/2026/wiz-misconfigured-aws-system-could-have-enabled-largest-ever-supply-chain-attack) |
+| 2025 | Russian APT Campaign | 5-year edge device attacks | [AWS Security Blog](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-russian-cyber-threat-group-targeting-western-critical-infrastructure/) |
+| 2025 | Volkswagen Data Leak | Unsecured AWS credentials | [CSO](https://www.csoonline.com/article/3631055/volkswagen-massive-data-leak-caused-by-a-failure-to-secure-aws-credentials.html) |
+| 2026 | AI Credential Hijack | Exposed AWS keys in S3 (8 min attack) | [UnderCode News](https://undercodenews.com/8-minutes-to-total-cloud-collapse-exposed-aws-credentials-google-looker-rce-and-a-cascade-of-global-cybercrime-shocks/) |
 | 2026 | AWS S3 Ransomware Campaign | 1,200+ leaked AWS keys | [CyberNews](https://cybernews.com/security/aws-cloud-storage-bucket-ransomware-attacks/) |
 | 2026 | ShinyHunters AWS Breach | Misconfigured public websites | [CSO](https://www.csoonline.com/article/3621101/aws-customers-face-massive-breach-amid-alleged-shinyhunters-regroup.html) |
-| 2025 | Volkswagen Data Leak | Unsecured AWS credentials | [CSO](https://www.csoonline.com/article/3631055/volkswagen-massive-data-leak-caused-by-a-failure-to-secure-aws-credentials.html) |
 
 ### Additional Resources
 - [AWS Security Breaches 2017 Summary](https://www.sumologic.com/blog/aws-security-breaches-2017/)
