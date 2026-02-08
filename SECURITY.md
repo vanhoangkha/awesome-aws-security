@@ -1,5 +1,12 @@
 # Security Policy
 
+## Supported Versions
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 2.x.x   | :white_check_mark: |
+| 1.x.x   | :x:                |
+
 ## Reporting Vulnerabilities
 
 If you discover a security issue with any linked resource:
@@ -24,3 +31,7 @@ This repository aggregates third-party resources. We do not control external con
 - Changes to external resources
 
 Always verify resources before use in production environments.
+
+## Contact
+
+For security concerns, contact: khavan.work@gmail.com
