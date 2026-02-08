@@ -1,14 +1,53 @@
-# Contribution Guidelines
+# Contributing Guidelines
 
-Together we can make it a better repo for AWS Security related important
-references. So, please keep contributing hackers!
+Thank you for your interest in contributing to Awesome AWS Security!
 
-**Please ensure your pull request follow to the below guidelines:**
-- Please make sure your suggestion is not duplicate.
-- Do a pull request for suggestion by providing a Link and Description.
-- Add your contents at the end of the list under appropriate headings.
-- Contents will be added on first come first serve basis.
-- Feel free to suggest new categories and/or improvements to the existing one.
-- Feel free to share and comment
+## How to Contribute
 
-*Appreciate your contributions and thank you for the suggestions!*
+1. **Fork** the repository
+2. **Create** a new branch: `git checkout -b feature/your-addition`
+3. **Add** your resource to the appropriate section
+4. **Commit** with a clear message: `git commit -m "Add [resource name] to [section]"`
+5. **Push** and create a **Pull Request**
+
+## Contribution Standards
+
+### Resource Requirements
+- Must be directly related to AWS security
+- Must be publicly accessible (no paywalled content without free alternatives)
+- Must be actively maintained (updated within last 2 years for tools)
+- Must not be duplicate of existing entries
+
+### Formatting
+```markdown
+- [Resource Name](URL) - Brief description (max 100 characters)
+```
+
+### Categories
+Add resources to the most relevant section:
+- **Whitepapers** - Official documentation and guides
+- **Books** - Published books (include publisher and year)
+- **Videos** - Tutorials, conference talks, courses
+- **Tutorials & Blogs** - Articles and blog posts
+- **Courses** - Structured learning content
+- **Tools** - Security tools and utilities
+- **Labs & CTFs** - Hands-on practice environments
+- **Breaches** - Case studies with lessons learned
+
+## Quality Checklist
+
+- [ ] Link is working and accessible
+- [ ] Description is concise and accurate
+- [ ] Resource is placed in correct category
+- [ ] No duplicate entries
+- [ ] Proper markdown formatting
+
+## Code of Conduct
+
+- Be respectful and constructive
+- Focus on AWS security relevance
+- Provide context for suggestions
+
+## Questions?
+
+Open an issue for discussion before large contributions.

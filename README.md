@@ -1,6 +1,12 @@
 # Awesome AWS Security [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A comprehensive, curated collection of AWS security resources including official documentation, books, video tutorials, hands-on labs, penetration testing tools, CTF challenges, and real-world case studies. Designed for security professionals, cloud architects, and DevSecOps engineers.
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](Contribute.md)
+[![Last Updated](https://img.shields.io/badge/Last%20Updated-February%202026-blue.svg)](#)
+
+A comprehensive, curated collection of AWS security resources including official documentation, books, video tutorials, hands-on labs, penetration testing tools, CTF challenges, and real-world case studies.
+
+**Target Audience:** Security professionals, Cloud architects, DevSecOps engineers, Penetration testers
 
 _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project._
 
@@ -21,12 +27,13 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 - [Contributors](#contributors)
 
 > [!NOTE]
-> **Additional Resources for Cloud Security Excellence:**
+> **Related Resources:**
 > - [Cloud Security Learning Resources](https://github.com/khavan/awesome-cybersecurity-learning-resources/blob/main/awesome-cloud-security-learning-resources.md)
 > - [AWS Security Study Plan](https://github.com/khavan/security-study-plan/blob/main/aws-security-study-plan.md)
 > - [AWS Security Interview Questions](https://github.com/khavan/security-interview-questions/blob/main/aws-security-interview-questions.md)
 > - [Cloud Security Roadmap](https://github.com/khavan/cybersecurity-roadmap/blob/master/cloud-security.md)
-> - [Cloud Security Presentations](https://github.com/khavan/cybersecurity-slides/tree/main/cloud-security)
+
+---
 
 ## AWS Whitepapers
 
