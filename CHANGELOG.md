@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.1.0] - 2026-02-08
+
+### Added
+- AWS Security Services Best Practices guide (official AWS documentation)
+- Conferences & Events section to Table of Contents
+
+### Fixed
+- Duplicate numbering in Security Tools section (items 33-46)
+- Updated flaws.cloud links from HTTP to HTTPS
+
 ## [2.0.0] - 2026-02-08
 
 ### Added
