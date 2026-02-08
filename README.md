@@ -110,6 +110,9 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 
 ### Free Resources
 15. [Practical Guide to Security in AWS](https://pages.awscloud.com/rs/112-TZM-766/images/Cloud%20Security%20Practical%20Guide%20to%20Security%20in%20the%20AWS%20Cloud.pdf) - SANS/AWS (PDF)
+16. [AWS Security Reference Architecture](https://docs.aws.amazon.com/prescriptive-guidance/latest/security-reference-architecture/introduction.html) - Official AWS SRA
+
+---
 
 ## Videos
 
@@ -157,26 +160,33 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 16. [S3 Access Controls Deep Dive](https://labs.detectify.com/2017/07/13/a-deep-dive-into-aws-s3-access-controls-taking-full-control-over-your-assets/) - Detectify
 17. [S3 Security Design Flaws](https://www.upguard.com/blog/s3-security-is-flawed-by-design) - UpGuard
 18. [Discovering Open Databases on AWS](https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32) - InfoSec Write-ups
+19. [AWS S3 Security Best Practices 2026](https://inventivehq.com/blog/aws-s3-security-best-practices) - Encryption & Access Control
+20. [Hidden Risks of Misconfigured S3 Buckets](https://ryeoverly.substack.com/p/hidden-risks-of-misconfigured-s3) - Multi-layer permissions
 
 ### Attack Techniques
-19. [Hacking Serverless Runtimes](https://www.blackhat.com/docs/us-17/wednesday/us-17-Krug-Hacking-Severless-Runtimes.pdf) - Black Hat 2017
-20. [SSRF via HTML Injection in PDF on EC2](https://blog.appsecco.com/finding-ssrf-via-html-injection-inside-a-pdf-file-on-aws-ec2-214cc5ec5d90) - AppSecCo
-21. [Chaining Vulnerabilities for Shell Access](https://blog.appsecco.com/getting-shell-and-data-access-in-aws-by-chaining-vulnerabilities-7630fa57c7ed) - AppSecCo
-22. [Instance Metadata Exploitation](https://www.mcafee.com/blogs/enterprise/cloud-security/how-an-attacker-could-use-instance-metadata-to-breach-your-app-in-aws/) - McAfee
+21. [Hacking Serverless Runtimes](https://www.blackhat.com/docs/us-17/wednesday/us-17-Krug-Hacking-Severless-Runtimes.pdf) - Black Hat 2017
+22. [SSRF via HTML Injection in PDF on EC2](https://blog.appsecco.com/finding-ssrf-via-html-injection-inside-a-pdf-file-on-aws-ec2-214cc5ec5d90) - AppSecCo
+23. [Chaining Vulnerabilities for Shell Access](https://blog.appsecco.com/getting-shell-and-data-access-in-aws-by-chaining-vulnerabilities-7630fa57c7ed) - AppSecCo
+24. [Instance Metadata Exploitation](https://www.mcafee.com/blogs/enterprise/cloud-security/how-an-attacker-could-use-instance-metadata-to-breach-your-app-in-aws/) - McAfee
+25. [Malicious Lambda Layers Attack](https://www.zestsecurity.io/blog/how-malicious-aws-lambda-layers-can-compromise-your-serverless-environment) - Zest Security (2025)
 
 ### Architecture & Best Practices
-23. [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/) - Service overview
-24. [AWS Security Primer](https://cloudonaut.io/aws-security-primer/) - Cloudonaut
-25. [ConsoleMe: Central AWS Permissions Control](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8) - Netflix
-26. [API Gateway Security](https://dzone.com/articles/the-role-of-api-gateways-in-api-security) - DZone
-27. [51 Tips for AWS Security](https://www.mcafee.com/enterprise/en-us/assets/skyhigh/white-papers/wp-definitive-guide-to-aws-ebook.pdf) - McAfee (PDF)
+26. [AWS in Plain English](https://expeditedsecurity.com/aws-in-plain-english/) - Service overview
+27. [AWS Security Primer](https://cloudonaut.io/aws-security-primer/) - Cloudonaut
+28. [ConsoleMe: Central AWS Permissions Control](https://netflixtechblog.com/consoleme-a-central-control-plane-for-aws-permissions-and-access-fd09afdd60a8) - Netflix
+29. [API Gateway Security](https://dzone.com/articles/the-role-of-api-gateways-in-api-security) - DZone
+30. [51 Tips for AWS Security](https://www.mcafee.com/enterprise/en-us/assets/skyhigh/white-papers/wp-definitive-guide-to-aws-ebook.pdf) - McAfee (PDF)
 
-### New 2024-2026 Resources
-28. [AWS Security Best Practices 2025](https://squareops.com/knowledge/top-10-aws-security-best-practices-for-us-companies/) - SquareOps
-29. [AWS CDK Security Vulnerability Analysis](https://toxigon.com/aws-security-issues-2024) - CDK account takeover risks
-30. [Protect GenAI Apps Against Encoding Attacks](https://aws.amazon.com/blogs/security/protect-your-generative-ai-applications-against-encoding-attacks-with-amazon-bedrock-guardrails/) - AWS Security Blog
-31. [AWS Security Incidents and Lessons Learned](https://www.cisin.com/coffee-break/aws-security-incidents-and-lessons-learned.html) - CISO insights
-32. [State of Cloud Security 2025](https://prowler.com/blog/cloud-security-report-2025/) - Prowler Report
+### New 2025-2026 Resources
+31. [AWS Security Best Practices 2026](https://www.appsquadz.com/blog/best-practices-for-aws-cloud-security-services-in-2026/) - AppSquadz
+32. [AWS IAM Best Practices 2026](https://blackboxauditor.com/blog/aws-iam-best-practices-2026.html) - Auditor Guide
+33. [AWS Penetration Testing Guide 2025](https://deepstrike.io/blog/aws-penetration-testing-guide-2025) - DeepStrike
+34. [How to Master AWS Security in 2026](https://cloudsecurityguy.substack.com/p/how-to-master-aws-security-in-2026) - Cloud Security Guy
+35. [AWS Security Specialty Exam Guide SCS-C03](https://towardsthecloud.com/aws-security-specialty-exam-guide/) - 2026 Prep
+36. [State of Cloud Security 2025](https://prowler.com/blog/cloud-security-report-2025/) - Prowler Report
+37. [AWS Auditing Security Checklist 2026](https://www.sentinelone.com/cybersecurity-101/cloud-security/aws-auditing-security-checklist/) - SentinelOne
+
+---
 
 ## Online Courses
 
@@ -265,23 +275,33 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 11. [HackTricks Cloud - AWS](https://cloud.hacktricks.xyz/pentesting-cloud/aws-pentesting) - AWS pentesting methodology
 12. [Hacking the Cloud](https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/) - Cloud attack techniques
 13. [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - Adversary emulation for cloud (Datadog)
+14. [AWS Enumerator](https://github.com/shabarkin/aws-enumerator) - Service enumeration for Black-Box testing
+15. [AWS Offensive Exploitation](https://github.com/CyberSecArmy/AWS-Offensive-Exploitation---Pentesting) - Pentesting techniques & frameworks
+16. [SkyArk](https://github.com/cyberark/SkyArk) - Privileged entities discovery (CyberArk)
 
 ### Secrets & Credential Management
-14. [AWS Vault](https://github.com/99designs/aws-vault) - Secure credential storage for development
-15. [truffleHog](https://github.com/dxa4481/truffleHog) - Git repository secrets scanner
-16. [Gitleaks](https://github.com/zricethezav/gitleaks) - Git secrets auditing
+17. [AWS Vault](https://github.com/99designs/aws-vault) - Secure credential storage for development
+18. [truffleHog](https://github.com/dxa4481/truffleHog) - Git repository secrets scanner
+19. [Gitleaks](https://github.com/zricethezav/gitleaks) - Git secrets auditing
+20. [Infisical](https://github.com/Infisical/infisical) - Open source secrets management
 
 ### Infrastructure Security
-17. [AWS Security Benchmark](https://github.com/awslabs/aws-security-benchmark) - CIS Foundation framework demos
-18. [AWS Security Automation](https://github.com/awslabs/aws-security-automation) - DevSecOps and incident response scripts
-19. [S3 Inspector](https://github.com/kromtech/s3-inspector) - S3 bucket permission checker
-20. [s3dns](https://github.com/olizimmermann/s3dns) - Passive DNS-based S3 bucket discovery
-21. [Zeus](https://github.com/DenizParlak/Zeus) - AWS auditing and hardening
-22. [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - Centralized WAF management via FMS
+21. [AWS Security Benchmark](https://github.com/awslabs/aws-security-benchmark) - CIS Foundation framework demos
+22. [AWS Security Automation](https://github.com/awslabs/aws-security-automation) - DevSecOps and incident response scripts
+23. [S3 Inspector](https://github.com/kromtech/s3-inspector) - S3 bucket permission checker
+24. [s3dns](https://github.com/olizimmermann/s3dns) - Passive DNS-based S3 bucket discovery
+25. [Zeus](https://github.com/DenizParlak/Zeus) - AWS auditing and hardening
+26. [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - Centralized WAF management via FMS
+
+### Kubernetes/EKS Security
+27. [Kubescape](https://github.com/kubescape/kubescape) - K8s security platform, NSA/MITRE scanning
+28. [Falco](https://github.com/falcosecurity/falco) - Runtime threat detection
+29. [Trivy](https://github.com/aquasecurity/trivy) - Container vulnerability scanner
+30. [kube-bench](https://github.com/aquasecurity/kube-bench) - CIS Kubernetes benchmark
 
 ### Access Management
-23. [ConsoleMe](https://github.com/Netflix/consoleme) - Central AWS permissions control plane (Netflix)
-24. [Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - Comprehensive tool collection
+31. [ConsoleMe](https://github.com/Netflix/consoleme) - Central AWS permissions control plane (Netflix)
+32. [Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - Comprehensive tool collection
 
 ### Cloud Compliance Tools (2025-2026)
 25. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
