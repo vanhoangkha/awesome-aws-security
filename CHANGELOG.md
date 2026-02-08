@@ -20,7 +20,7 @@ All notable changes to this project will be documented in this file.
 - Added AWS native services table
 
 ### Updated
-- All GitHub references to khavan
+- All GitHub references to vanhoangkha
 - Book editions with publication years
 - Tool versions and descriptions
 

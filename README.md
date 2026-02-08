@@ -28,10 +28,10 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 
 > [!NOTE]
 > **Related Resources:**
-> - [Cloud Security Learning Resources](https://github.com/khavan/awesome-cybersecurity-learning-resources/blob/main/awesome-cloud-security-learning-resources.md)
-> - [AWS Security Study Plan](https://github.com/khavan/security-study-plan/blob/main/aws-security-study-plan.md)
-> - [AWS Security Interview Questions](https://github.com/khavan/security-interview-questions/blob/main/aws-security-interview-questions.md)
-> - [Cloud Security Roadmap](https://github.com/khavan/cybersecurity-roadmap/blob/master/cloud-security.md)
+> - [Cloud Security Learning Resources](https://github.com/vanhoangkha/awesome-cybersecurity-learning-resources/blob/main/awesome-cloud-security-learning-resources.md)
+> - [AWS Security Study Plan](https://github.com/vanhoangkha/security-study-plan/blob/main/aws-security-study-plan.md)
+> - [AWS Security Interview Questions](https://github.com/vanhoangkha/security-interview-questions/blob/main/aws-security-interview-questions.md)
+> - [Cloud Security Roadmap](https://github.com/vanhoangkha/cybersecurity-roadmap/blob/master/cloud-security.md)
 
 ---
 
@@ -410,8 +410,8 @@ Understanding past incidents helps prevent future security failures.
 
 See [Contribute.md](Contribute.md) for contribution guidelines.
 
-[View All Contributors](https://github.com/khavan/awesome-aws-security/graphs/contributors)
+[View All Contributors](https://github.com/vanhoangkha/awesome-aws-security/graphs/contributors)
 
 ---
 
-*Maintained by [khavan](https://github.com/khavan) | Last updated: February 2026*
+*Maintained by [vanhoangkha](https://github.com/vanhoangkha) | Last updated: February 2026*
