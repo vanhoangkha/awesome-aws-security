@@ -207,6 +207,17 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 47. [AWS Control Tower Landing Zone](https://kindatechnical.com/aws-security/lesson-38-aws-control-tower.html) - Multi-account governance
 48. [AWS IAM Roles Anywhere Guide](https://www.bitcot.com/how-to-secure-aws-access-from-non-aws-host-environments-using-iam-roles-anywhere/) - External workload authentication
 49. [AWS Clean Rooms Privacy Guide](https://mactores.com/blog/how-synthetic-data-in-aws-clean-rooms-unlocks-new-use-cases) - Synthetic data for ML
+50. [AWS Artifact Compliance Guide](https://datacamp.com/tutorial/aws-artifact) - On-demand compliance reports
+51. [AWS Audit Manager Setup](https://www.cloudthat.com/resources/blog/a-guide-to-set-up-aws-audit-manager) - Automated compliance
+52. [AWS Cognito Authentication Patterns](https://dasroot.net/posts/2025/12/aws-cognito-authentication-authorization-patterns/) - User pools & identity
+53. [VPC Flow Logs Security Analysis](https://medium.com/panther-labs/aws-security-logging-fundamentals-vpc-flow-logs-642cdaaf6f1) - Network monitoring
+54. [AWS Backup Vault Lock](https://aws.amazon.com/blogs/storage/protecting-data-with-aws-backup-vault-lock/) - Ransomware protection
+55. [SSM Session Manager vs Bastion](https://zsoftly.com/blog/zero-trust-access-aws-ssm-eliminate-ssh-keys-bastion-hosts) - Zero-trust access
+56. [Lambda Code Signing with AWS Signer](https://www.cloudway.be/blog/serverless-code-signing-with-aws-lambda-and-aws-signer) - Code integrity
+57. [AWS Security Hub ASFF Format](https://docs.aws.amazon.com/securityhub/latest/userguide/securityhub-findings-format.html) - Findings integration
+58. [S3 Object Lock for Compliance](https://letstalkaws.io/articles/9/10/2024/immutable-storage-with-amazon-s3-object-lock) - WORM protection
+59. [CloudWatch Logs Insights Queries](https://aws-observability.github.io/observability-best-practices/tools/logs/logs-insights-examples/) - Security analysis
+60. [AWS ACM Private CA Guide](https://aws.amazon.com/blogs/security/how-to-host-and-manage-an-entire-private-certificate-infrastructure-in-aws/) - PKI infrastructure
 
 ---
 
@@ -296,6 +307,18 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **Firewall Manager** | Central WAF and security group management |
 | **Clean Rooms** | Privacy-safe data collaboration with differential privacy |
 | **IAM Roles Anywhere** | X.509 certificate-based access for external workloads |
+| **Artifact** | On-demand compliance reports (SOC, ISO, PCI DSS, HIPAA) |
+| **Audit Manager** | Automated compliance evidence collection |
+| **Certificate Manager (ACM)** | SSL/TLS certificate provisioning and management |
+| **Private CA** | Managed private certificate authority |
+| **Cognito** | User authentication and identity management |
+| **Directory Service** | Managed Microsoft Active Directory |
+| **Systems Manager** | Session Manager for bastion-less access |
+| **Signer** | Code signing for Lambda functions |
+| **Backup Vault Lock** | WORM protection against ransomware |
+| **VPC Flow Logs** | Network traffic capture and analysis |
+| **S3 Object Lock** | WORM compliance (Governance/Compliance modes) |
+| **CloudWatch Logs Insights** | Interactive log analysis and security queries |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
