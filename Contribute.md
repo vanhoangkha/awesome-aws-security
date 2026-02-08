@@ -51,3 +51,11 @@ Add resources to the most relevant section:
 ## Questions?
 
 Open an issue for discussion before large contributions.
+
+## Maintainers
+
+- [@vanhoangkha](https://github.com/vanhoangkha) - Primary maintainer
+
+## Recognition
+
+Contributors will be recognized in the README and on the [Contributors page](https://github.com/vanhoangkha/awesome-aws-security/graphs/contributors).
