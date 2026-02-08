@@ -35,6 +35,17 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 
 ---
 
+## 🆕 What's New (2025-2026)
+
+> **AWS re:Invent 2025 & re:Inforce 2025 Highlights:**
+> - [AWS Security Agent](https://aws.amazon.com/blogs/aws/new-aws-security-agent-secures-applications-proactively-from-design-to-deployment-preview/) - AI-powered SAST from design to deployment (Preview)
+> - [AWS Security Hub v2](https://aws.amazon.com/blogs/security/streamline-security-response-at-scale-with-aws-security-hub-automation/) - ML-powered threat detection, automated correlation
+> - [GuardDuty Extended Threat Detection](https://aws.amazon.com/about-aws/whats-new/2025/12/guardduty-extended-threat-detection-ec2-ecs/) - Multi-stage attack detection for EC2/ECS
+> - [MFA Enforcement](https://aws.amazon.com/blogs/aws/aws-reinforce-roundup-2025-top-announcements/) - FIDO2 passkeys, up to 8 MFA devices per user
+> - [IAM Access Analyzer Updates](https://aws.amazon.com/blogs/security/customize-the-scope-of-iam-access-analyzer-unused-access-analysis/) - Customizable unused access analysis
+
+---
+
 ## AWS Whitepapers
 
 Official AWS security whitepapers provide foundational knowledge for cloud security architecture. For the latest publications, visit the [AWS Security Learning Portal](https://aws.amazon.com/security/security-learning/).
@@ -191,17 +202,30 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 ### Offensive Security & Penetration Testing
 14. [Cloud Hacking](https://www.notsosecure.com/hacking-training/cloud-hacking/) - NotSoSecure
 15. [Breaking and Pwning AWS and Azure](https://github.com/appsecco/breaking-and-pwning-apps-and-servers-aws-azure-training) - AppSecCo (Free)
-16. [Cloud Security: AWS Edition Bootcamp](https://bootcamps.pentesteracademy.com/course/cloud-security-aws-on-demand) - Pentester Academy
+16. [Cloud Security Bootcamp](https://www.cloudsecuritybootcamp.com) - Kaizenteq (Free monthly)
+17. [EKS Security Masterclass](https://ekssecurity.kubernetesvillage.com/) - Free EKS Attack & Defense
 
 ### New 2024-2026 Courses
-19. [Breaching AWS - Offensive AWS Security](https://cloudbreach.io/breachingaws/) - CloudBreach (OAWSP Certification)
-20. [Certified Cloud Pentesting Expert - AWS](https://pentestingexams.com/product/certified-cloud-pentesting-expert/) - CCPenX-AWS
-21. [Pentesting AWS with Pacu, CloudGoat & ChatGPT](https://cybr.com/courses/pentesting-aws-environments-with-pacu-cloudgoat-and-chatgpt/) - CYBR
-17. [Cloud Security Bootcamp](https://www.cloudsecuritybootcamp.com) - Kaizenteq (Free monthly)
-18. [EKS Security Masterclass](https://ekssecurity.kubernetesvillage.com/) - Free EKS Attack & Defense
+18. [Breaching AWS - Offensive AWS Security](https://cloudbreach.io/breachingaws/) - CloudBreach (OAWSP Certification)
+19. [Certified Cloud Pentesting Expert - AWS](https://pentestingexams.com/product/certified-cloud-pentesting-expert/) - CCPenX-AWS
+20. [Pentesting AWS with Pacu, CloudGoat & ChatGPT](https://cybr.com/courses/pentesting-aws-environments-with-pacu-cloudgoat-and-chatgpt/) - CYBR
 
+### Cloud Security Certifications (2026)
+21. [CCSP - Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp) - ISC2 (vendor-neutral, 5 years exp required)
+22. [CCSK - Certificate of Cloud Security Knowledge](https://cloudsecurityalliance.org/education/ccsk/) - CSA (foundational)
+23. [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/) - AWS Official
+
+---
 
 ## Security Tools
+
+### 🆕 AWS re:Invent 2025 New Services
+| Service | Description |
+|---------|-------------|
+| **AWS Security Agent** | AI-powered SAST, automated security reviews, context-aware pentesting (Preview) |
+| **Security Hub v2** | ML threat detection, automated correlation, real-time risk analytics |
+| **GuardDuty Extended** | Multi-stage attack detection for EC2, ECS, S3 |
+| **IAM Access Analyzer** | Customizable unused access analysis, guided revocation |
 
 ### AWS Native Security Services
 [AWS Security Products](https://aws.amazon.com/products/security/) - Official AWS security service portfolio:
@@ -209,20 +233,20 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | Service | Description |
 |---------|-------------|
 | **IAM** | Identity and access management for AWS resources |
-| **IAM Identity Center** | Centralized SSO and identity management (2024+) |
+| **IAM Identity Center** | Centralized SSO and identity management |
 | **CloudWatch** | Monitoring, logging, and observability |
 | **CloudTrail** | API activity logging for governance and compliance |
-| **Inspector** | Automated vulnerability assessment |
-| **GuardDuty** | Intelligent threat detection with ML |
+| **Inspector** | Automated vulnerability assessment (Classic ends May 2026) |
+| **GuardDuty** | Intelligent threat detection with ML + Extended Threat Detection |
 | **KMS** | Key management with FIPS 140-2 validated HSMs |
 | **Shield** | DDoS protection for EC2, ELB, CloudFront, Route 53 |
 | **Trusted Advisor** | Real-time best practice recommendations |
 | **Config** | Resource configuration assessment and auditing |
-| **Security Hub** | Centralized security posture management |
+| **Security Hub** | Centralized security posture management (v2 GA Dec 2025) |
 | **WAF** | Web application firewall |
 | **Macie** | ML-powered sensitive data discovery |
 | **Detective** | Security investigation and analysis |
-| **Bedrock Guardrails** | GenAI content filtering, PII redaction, hallucination detection (2024+) |
+| **Bedrock Guardrails** | GenAI content filtering, PII redaction, hallucination detection |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
@@ -240,27 +264,30 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 10. [AWS PWN](https://github.com/dagrz/aws_pwn) - AWS penetration testing toolkit
 11. [HackTricks Cloud - AWS](https://cloud.hacktricks.xyz/pentesting-cloud/aws-pentesting) - AWS pentesting methodology
 12. [Hacking the Cloud](https://hackingthe.cloud/aws/general-knowledge/aws_organizations_defaults/) - Cloud attack techniques
+13. [Stratus Red Team](https://github.com/DataDog/stratus-red-team) - Adversary emulation for cloud (Datadog)
 
 ### Secrets & Credential Management
-13. [AWS Vault](https://github.com/99designs/aws-vault) - Secure credential storage for development
-14. [truffleHog](https://github.com/dxa4481/truffleHog) - Git repository secrets scanner
-15. [Gitleaks](https://github.com/zricethezav/gitleaks) - Git secrets auditing
+14. [AWS Vault](https://github.com/99designs/aws-vault) - Secure credential storage for development
+15. [truffleHog](https://github.com/dxa4481/truffleHog) - Git repository secrets scanner
+16. [Gitleaks](https://github.com/zricethezav/gitleaks) - Git secrets auditing
 
 ### Infrastructure Security
-16. [AWS Security Benchmark](https://github.com/awslabs/aws-security-benchmark) - CIS Foundation framework demos
-17. [AWS Security Automation](https://github.com/awslabs/aws-security-automation) - DevSecOps and incident response scripts
-18. [S3 Inspector](https://github.com/kromtech/s3-inspector) - S3 bucket permission checker
-19. [s3dns](https://github.com/olizimmermann/s3dns) - Passive DNS-based S3 bucket discovery
-20. [Zeus](https://github.com/DenizParlak/Zeus) - AWS auditing and hardening
-21. [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - Centralized WAF management via FMS
+17. [AWS Security Benchmark](https://github.com/awslabs/aws-security-benchmark) - CIS Foundation framework demos
+18. [AWS Security Automation](https://github.com/awslabs/aws-security-automation) - DevSecOps and incident response scripts
+19. [S3 Inspector](https://github.com/kromtech/s3-inspector) - S3 bucket permission checker
+20. [s3dns](https://github.com/olizimmermann/s3dns) - Passive DNS-based S3 bucket discovery
+21. [Zeus](https://github.com/DenizParlak/Zeus) - AWS auditing and hardening
+22. [AWS Firewall Factory](https://github.com/globaldatanet/aws-firewall-factory) - Centralized WAF management via FMS
 
 ### Access Management
-22. [ConsoleMe](https://github.com/Netflix/consoleme) - Central AWS permissions control plane (Netflix)
-23. [Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - Comprehensive tool collection
+23. [ConsoleMe](https://github.com/Netflix/consoleme) - Central AWS permissions control plane (Netflix)
+24. [Arsenal of AWS Security Tools](https://github.com/toniblyx/my-arsenal-of-aws-security-tools) - Comprehensive tool collection
 
 ### Cloud Compliance Tools (2025-2026)
-24. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
-25. [k9 Security](https://www.k9security.io/) - AWS IAM security analysis
+25. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
+26. [k9 Security](https://www.k9security.io/) - AWS IAM security analysis
+
+---
 
 ## Hands-on Labs & CTFs
 
@@ -354,13 +381,30 @@ Understanding past incidents helps prevent future security failures.
 - US enterprise average: **$9.36 million**
 - 10% of public cloud storage buckets contain sensitive data (Tenable 2025)
 
+---
+
 ## Podcasts & Newsletters
 
-1. [Cloud Security Podcast](https://www.youtube.com/@CloudSecurityPodcast/videos) - Weekly interviews with cloud security professionals
-2. [Cloud Security Newsletter](https://www.cloudsecuritynewsletter.com/) - Weekly cloud security digest
-3. [AWS Security Blog RSS](https://aws.amazon.com/blogs/security/feed/) - Official AWS security updates
-4. [tl;dr sec Newsletter](https://tldrsec.com/) - Weekly security newsletter with cloud coverage
-5. [Cloud Security Club](https://cloudsecurity.club/) - Prowler updates and cloud security insights
+### Podcasts
+1. [Cloud Security Podcast](https://www.cloudsecuritypodcast.tv/) - Weekly interviews with cloud security professionals
+2. [AWS Podcast](https://aws.amazon.com/podcasts/aws-podcast/) - Official AWS podcast
+3. [The Cloud Pod](https://www.thecloudpod.net/) - Weekly AWS, Azure & GCP news
+4. [Screaming in the Cloud](https://www.lastweekinaws.com/podcast/screaming-in-the-cloud/) - Cloud industry interviews
+
+### Newsletters
+5. [Cloud Security Newsletter](https://www.cloudsecuritynewsletter.com/) - Weekly cloud security digest
+6. [AWS Security Blog RSS](https://aws.amazon.com/blogs/security/feed/) - Official AWS security updates
+7. [tl;dr sec Newsletter](https://tldrsec.com/) - Weekly security newsletter with cloud coverage
+8. [Cloud Security Club](https://cloudsecurity.club/) - Prowler updates and cloud security insights
+9. [Last Week in AWS](https://www.lastweekinaws.com/) - Weekly AWS news and analysis
+
+### Blogs to Follow (2026)
+10. [AWS Security Blog](https://aws.amazon.com/blogs/security/) - Official
+11. [Chris Farris Blog](https://www.chrisfarris.com/) - AWS security insights
+12. [Rhino Security Labs](https://rhinosecuritylabs.com/blog/) - Cloud pentesting research
+13. [Orca Security Research](https://orca.security/resources/blog/) - Cloud vulnerability research
+
+---
 
 ## Contributors
 
