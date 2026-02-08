@@ -48,7 +48,9 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 > - [AWS Verified Access Non-HTTP(S)](https://aws.amazon.com/about-aws/whats-new/2025/02/aws-verified-access-zero-trust-resources-non-https-protocols) - Zero Trust for all protocols
 > - [AWS Network Firewall Proxy](https://shirwalab.net/posts/aws-network-firewall-proxy/) - NAT Gateway integration for egress filtering (Preview)
 > - [CloudTrail Insights for Data Events](https://aws.amazon.com/about-aws/whats-new/2025/11/cloudtrail-insights-data-events-detect-anomalies-access/) - Anomaly detection for S3/Lambda data access
-> - [AWS Payment Cryptography PCI PIN](https://aws.amazon.com/blogs/security/author/tusajain/) - PCI PIN audit completion
+> - [AWS Clean Rooms Synthetic Data](https://aws.amazon.com/about-aws/whats-new/2025/11/aws-clean-rooms-synthetic-dataset-generation-custom-ml/) - Privacy-safe ML training
+> - [IAM Outbound Identity Federation](https://aws.amazon.com/blogs/security/) - JWT tokens for external services authentication
+> - [Russian Threat Group Alert](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-russian-cyber-threat-group-targeting-western-critical-infrastructure/) - AWS Threat Intelligence on edge device attacks
 > - [CVE-2025-55182 React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182) - China-nexus threat groups exploitation
 > - [runc Container CVEs](https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/) - CVE-2025-31133, CVE-2025-52565, CVE-2025-52881
 
@@ -203,6 +205,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 45. [AWS PrivateLink Security Guide](https://kindatechnical.com/aws-security-specialty/lesson-28-privatelink-and-secure-network-architecture.html) - Secure Network Architecture
 46. [AWS WAF Bot Control Guide](https://aws.amazon.com/waf/features/bot-control/) - Managed bot protection
 47. [AWS Control Tower Landing Zone](https://kindatechnical.com/aws-security/lesson-38-aws-control-tower.html) - Multi-account governance
+48. [AWS IAM Roles Anywhere Guide](https://www.bitcot.com/how-to-secure-aws-access-from-non-aws-host-environments-using-iam-roles-anywhere/) - External workload authentication
+49. [AWS Clean Rooms Privacy Guide](https://mactores.com/blog/how-synthetic-data-in-aws-clean-rooms-unlocks-new-use-cases) - Synthetic data for ML
 
 ---
 
@@ -290,6 +294,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **Resource Access Manager** | Cross-account resource sharing |
 | **PrivateLink** | Private connectivity to AWS services without internet |
 | **Firewall Manager** | Central WAF and security group management |
+| **Clean Rooms** | Privacy-safe data collaboration with differential privacy |
+| **IAM Roles Anywhere** | X.509 certificate-based access for external workloads |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
@@ -464,6 +470,8 @@ Understanding past incidents helps prevent future security failures.
 - 48,185 CVEs disclosed in 2025 (Pixee Security Report)
 - By 2026: 10% of large enterprises will have mature Zero Trust architecture (Gartner)
 - #1 cloud security threat: Insufficient identity and access management (CSA 2025)
+- AI-powered voice fraud surged **1000%+** in 2025 (Pindrop)
+- Phishing attacks **doubled** in 2025 due to AI (Cofense)
 
 ---
 
