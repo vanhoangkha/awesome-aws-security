@@ -477,6 +477,7 @@ Understanding past incidents helps prevent future security failures.
 - [200 Million Voter Data Leak](https://www.skyhighnetworks.com/cloud-security-blog/latest-voter-data-leak-is-a-lesson-in-aws-security/)
 - [10 Worst Amazon S3 Breaches](https://businessinsights.bitdefender.com/worst-amazon-breaches)
 - [AWS Data Breach Lessons for CISOs](https://www.blackfog.com/aws-data-breach/) - BlackFog Analysis
+- [Amazon Data Breaches Timeline](https://cybersecurityforme.com/amazon-data-breaches-timeline/) - Comprehensive timeline up to 2026
 
 ## Infrastructure Vulnerabilities
 
