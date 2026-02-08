@@ -39,11 +39,12 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 ## 🆕 What's New (2025-2026)
 
 > **AWS re:Invent 2025 & re:Inforce 2025 Highlights:**
-> - [AWS Security Agent](https://aws.amazon.com/blogs/aws/new-aws-security-agent-secures-applications-proactively-from-design-to-deployment-preview/) - AI-powered SAST from design to deployment (Preview)
-> - [AWS Security Hub v2](https://aws.amazon.com/blogs/security/streamline-security-response-at-scale-with-aws-security-hub-automation/) - ML-powered threat detection, automated correlation
-> - [GuardDuty Extended Threat Detection](https://aws.amazon.com/about-aws/whats-new/2025/12/guardduty-extended-threat-detection-ec2-ecs/) - Multi-stage attack detection for EC2/ECS
+> - [AWS Security Agent](https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025) - AI-powered SAST from design to deployment (Preview)
+> - [AWS Security Hub v2](https://aws.amazon.com/blogs/security/category/security-identity-compliance/aws-security-hub/) - ML-powered threat detection, automated correlation (GA Dec 2025)
+> - [GuardDuty Extended Threat Detection](https://siliconangle.com/2025/12/02/aws-rolls-security-agent-strengthens-guardduty-security-hub-reinvent-2025/) - Multi-stage attack detection for EC2/ECS
 > - [MFA Enforcement](https://aws.amazon.com/blogs/aws/aws-reinforce-roundup-2025-top-announcements/) - FIDO2 passkeys, up to 8 MFA devices per user
 > - [IAM Access Analyzer Updates](https://aws.amazon.com/blogs/security/customize-the-scope-of-iam-access-analyzer-unused-access-analysis/) - Customizable unused access analysis
+> - [Top re:Invent 2025 Announcements](https://aws.amazon.com/blogs/aws/top-announcements-of-aws-reinvent-2025/) - Official AWS summary
 
 > **January-February 2026 Updates:**
 > - [AWS Verified Access Non-HTTP(S)](https://aws.amazon.com/about-aws/whats-new/2025/02/aws-verified-access-zero-trust-resources-non-https-protocols) - Zero Trust for all protocols
