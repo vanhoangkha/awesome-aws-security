@@ -44,6 +44,13 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 > - [MFA Enforcement](https://aws.amazon.com/blogs/aws/aws-reinforce-roundup-2025-top-announcements/) - FIDO2 passkeys, up to 8 MFA devices per user
 > - [IAM Access Analyzer Updates](https://aws.amazon.com/blogs/security/customize-the-scope-of-iam-access-analyzer-unused-access-analysis/) - Customizable unused access analysis
 
+> **January-February 2026 Updates:**
+> - [AWS Verified Access Non-HTTP(S)](https://aws.amazon.com/about-aws/whats-new/2025/02/aws-verified-access-zero-trust-resources-non-https-protocols) - Zero Trust for all protocols
+> - [AWS Network Firewall Proxy](https://shirwalab.net/posts/aws-network-firewall-proxy/) - NAT Gateway integration for egress filtering (Preview)
+> - [AWS Payment Cryptography PCI PIN](https://aws.amazon.com/blogs/security/author/tusajain/) - PCI PIN audit completion
+> - [CVE-2025-55182 React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182) - China-nexus threat groups exploitation
+> - [runc Container CVEs](https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/) - CVE-2025-31133, CVE-2025-52565, CVE-2025-52881
+
 ---
 
 ## AWS Whitepapers
@@ -185,6 +192,11 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 35. [AWS Security Specialty Exam Guide SCS-C03](https://towardsthecloud.com/aws-security-specialty-exam-guide/) - 2026 Prep
 36. [State of Cloud Security 2025](https://prowler.com/blog/cloud-security-report-2025/) - Prowler Report
 37. [AWS Auditing Security Checklist 2026](https://www.sentinelone.com/cybersecurity-101/cloud-security/aws-auditing-security-checklist/) - SentinelOne
+38. [Zero Trust Architecture on AWS](https://thinkcloudly.com/blog/zero-trust-security-architecture-aws/) - Complete Guide
+39. [AWS IAM Identity Center Guide](https://towardsthecloud.com/blog/aws-iam-identity-center) - Centralized Identity
+40. [AWS IAM Privilege Escalation via Identity Center](https://www.cloudquery.io/blog/aws-priv-esc-identity-center) - CloudQuery
+41. [Cloud Native Security Tools 2026](https://www.tasrieit.com/blog/cloud-native-security-tools-2026-comprehensive-guide) - Comprehensive Guide
+42. [AWS Macie Data Discovery Guide](https://inventivehq.com/knowledge-base/aws/aws-macie-data-protection) - Sensitive Data Protection
 
 ---
 
@@ -257,6 +269,10 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **Macie** | ML-powered sensitive data discovery |
 | **Detective** | Security investigation and analysis |
 | **Bedrock Guardrails** | GenAI content filtering, PII redaction, hallucination detection |
+| **Security Lake** | Centralized security data lake with OCSF normalization |
+| **CloudTrail Lake** | Managed data lake for activity logs and Config items |
+| **Verified Access** | Zero Trust access without VPN (now supports non-HTTP(S)) |
+| **Network Firewall** | Managed IDS/IPS with Suricata rules |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
@@ -306,6 +322,13 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 ### Cloud Compliance Tools (2025-2026)
 25. [Qualys Cloud Security](https://blog.qualys.com/product-tech/2026/01/29/top-10-cloud-compliance-tools-for-enterprise-security-and-audit-readiness-in-2026) - Enterprise compliance
 26. [k9 Security](https://www.k9security.io/) - AWS IAM security analysis
+
+### CSPM & CNAPP Tools (2026)
+27. [Wiz](https://www.wiz.io/) - Agentless CNAPP platform
+28. [Orca Security](https://orca.security/) - SideScanning cloud security
+29. [Lacework](https://www.lacework.com/) - Cloud security with anomaly detection
+30. [Aqua Security](https://www.aquasec.com/) - Cloud native security platform
+31. [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Open source cloud security scanner
 
 ---
 
@@ -359,6 +382,12 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 8. [AWS CDK Account Takeover Vulnerability (2024)](https://toxigon.com/aws-security-issues-2024) - Cloud Development Kit security flaw
 9. [Massive AWS Credential Exposure (Aug 2024)](https://riskcognizance.com/blog/massive-aws-data-breach-exposes-millions-of-users-to-hackers-how-misconfigured-cloud-instances-are-putting-data-at-risk) - Misconfigured cloud instances
 
+### 2025-2026 Security Advisories
+10. [CVE-2025-55182 React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182) - RCE in React Server Components
+11. [runc Container CVEs (Jan 2026)](https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/) - CVE-2025-31133, CVE-2025-52565, CVE-2025-52881
+12. [AWS RCE in React Server Components](https://aws.amazon.com/security/security-bulletins/AWS-2025-030/) - Remote code execution vulnerability
+13. [CVE-2025-20286 Cisco ISE on AWS](https://socprime.com/blog/cve-2025-20286-vulnerability/) - Critical flaw affecting AWS deployments
+
 ## Notable Breaches
 
 Understanding past incidents helps prevent future security failures.
@@ -375,6 +404,10 @@ Understanding past incidents helps prevent future security failures.
 | 2024 | Angel One (Financial) | S3 misconfiguration - 440GB | [Report](https://redrobot.online/2025/05/23/financial-brokerage-exposes-440-gb-of-client-data-through-misconfigured-aws-bucket/) |
 | 2025 | Cloud Storage Leaks | 10% of public buckets exposed | [Tenable Report](https://www.cybersecuritydive.com/news/cloud-security-amazon-google-microsoft-tenable-report/751047/) |
 | 2025 | Docker Hub Crypto Mining | Compromised credentials | [Timeline](https://cybersecurityforme.com/amazon-data-breaches-timeline/) |
+| 2026 | AI Credential Hijack | Exposed AWS keys in S3 (8 min attack) | [Report](https://www.itsecuritynews.info/ai-hijacks-aws-cloud-in-8-minutes-via-exposed-keys/) |
+| 2026 | AWS S3 Ransomware Campaign | 1,200+ leaked AWS keys | [CyberNews](https://cybernews.com/security/aws-cloud-storage-bucket-ransomware-attacks/) |
+| 2026 | ShinyHunters AWS Breach | Misconfigured public websites | [CSO](https://www.csoonline.com/article/3621101/aws-customers-face-massive-breach-amid-alleged-shinyhunters-regroup.html) |
+| 2025 | Volkswagen Data Leak | Unsecured AWS credentials | [CSO](https://www.csoonline.com/article/3631055/volkswagen-massive-data-leak-caused-by-a-failure-to-secure-aws-credentials.html) |
 
 ### Additional Resources
 - [AWS Security Breaches 2017 Summary](https://www.sumologic.com/blog/aws-security-breaches-2017/)
@@ -400,6 +433,9 @@ Understanding past incidents helps prevent future security failures.
 - Average cost of cloud data breach: **$5.17 million** (IBM 2024)
 - US enterprise average: **$9.36 million**
 - 10% of public cloud storage buckets contain sensitive data (Tenable 2025)
+- 48,185 CVEs disclosed in 2025 (Pixee Security Report)
+- By 2026: 10% of large enterprises will have mature Zero Trust architecture (Gartner)
+- #1 cloud security threat: Insufficient identity and access management (CSA 2025)
 
 ---
 
@@ -423,6 +459,20 @@ Understanding past incidents helps prevent future security failures.
 11. [Chris Farris Blog](https://www.chrisfarris.com/) - AWS security insights
 12. [Rhino Security Labs](https://rhinosecuritylabs.com/blog/) - Cloud pentesting research
 13. [Orca Security Research](https://orca.security/resources/blog/) - Cloud vulnerability research
+14. [Wiz Research](https://www.wiz.io/blog) - Cloud security research
+15. [Datadog Security Labs](https://securitylabs.datadoghq.com/) - Cloud threat research
+
+---
+
+## Conferences & Events (2026)
+
+### Major Security Conferences
+1. [AWS re:Invent 2026](https://reinvent.awsevents.com/) - Las Vegas, December 2026
+2. [AWS re:Inforce 2026](https://reinforce.awsevents.com/) - Security-focused conference
+3. [SANS Cloud Security Exchange Summit 2026](https://www.sans.org/cyber-security-training-events/cloud-security-exchange-summit-2026) - Multi-cloud security
+4. [Gartner Security & Risk Management Summit](https://www.cloudfest.com/blog/the-9-best-cybersecurity-conferences-to-attend-in-2026) - National Harbor, June 2026
+5. [AWS Community Day Bay Area 2026](https://www.aws-cscd.com/) - Secure-by-design AI workloads
+6. [fwd:cloudsec](https://fwdcloudsec.org/) - Cloud security research conference
 
 ---
 
