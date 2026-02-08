@@ -222,6 +222,9 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 58. [S3 Object Lock for Compliance](https://letstalkaws.io/articles/9/10/2024/immutable-storage-with-amazon-s3-object-lock) - WORM protection
 59. [CloudWatch Logs Insights Queries](https://aws-observability.github.io/observability-best-practices/tools/logs/logs-insights-examples/) - Security analysis
 60. [AWS ACM Private CA Guide](https://aws.amazon.com/blogs/security/how-to-host-and-manage-an-entire-private-certificate-infrastructure-in-aws/) - PKI infrastructure
+61. [AWS Security Response Automation](https://aws.amazon.com/blogs/security/how-get-started-security-response-automation-aws/) - Automated incident response
+62. [AWS Security Compliance Cheat Sheet](https://hyperproof.io/resource/aws-security-compliance-checklist/) - Compliance managers guide
+63. [26 AWS Security Best Practices](https://sysdig.com/blog/26-aws-security-best-practices/) - Production checklist by Sysdig
 
 ---
 
