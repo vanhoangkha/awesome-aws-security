@@ -47,6 +47,7 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 > **January-February 2026 Updates:**
 > - [AWS Verified Access Non-HTTP(S)](https://aws.amazon.com/about-aws/whats-new/2025/02/aws-verified-access-zero-trust-resources-non-https-protocols) - Zero Trust for all protocols
 > - [AWS Network Firewall Proxy](https://shirwalab.net/posts/aws-network-firewall-proxy/) - NAT Gateway integration for egress filtering (Preview)
+> - [CloudTrail Insights for Data Events](https://aws.amazon.com/about-aws/whats-new/2025/11/cloudtrail-insights-data-events-detect-anomalies-access/) - Anomaly detection for S3/Lambda data access
 > - [AWS Payment Cryptography PCI PIN](https://aws.amazon.com/blogs/security/author/tusajain/) - PCI PIN audit completion
 > - [CVE-2025-55182 React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182) - China-nexus threat groups exploitation
 > - [runc Container CVEs](https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/) - CVE-2025-31133, CVE-2025-52565, CVE-2025-52881
@@ -235,7 +236,9 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 ### Cloud Security Certifications (2026)
 21. [CCSP - Certified Cloud Security Professional](https://www.isc2.org/certifications/ccsp) - ISC2 (vendor-neutral, 5 years exp required)
 22. [CCSK - Certificate of Cloud Security Knowledge](https://cloudsecurityalliance.org/education/ccsk/) - CSA (foundational)
-23. [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/) - AWS Official
+23. [AWS Certified Security - Specialty](https://aws.amazon.com/certification/certified-security-specialty/) - AWS Official (SCS-C03)
+24. [GIAC Public Cloud Security (GPCS)](https://www.giac.org/certifications/public-cloud-security-gpcs/) - SANS/GIAC multi-cloud
+25. [GIAC Cloud Security Essentials (GCLD)](https://www.giac.org/certifications/cloud-security-essentials-gcld/) - SANS/GIAC foundational
 
 ---
 
@@ -248,6 +251,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **Security Hub v2** | ML threat detection, automated correlation, real-time risk analytics |
 | **GuardDuty Extended** | Multi-stage attack detection for EC2, ECS, S3 |
 | **IAM Access Analyzer** | Customizable unused access analysis, guided revocation |
+
+> **⚠️ End of Life Notice:** Amazon Inspector Classic ends support **May 20, 2026**. [Migrate to Inspector v2](https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html)
 
 ### AWS Native Security Services
 [AWS Security Products](https://aws.amazon.com/products/security/) - Official AWS security service portfolio:
@@ -273,6 +278,8 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **CloudTrail Lake** | Managed data lake for activity logs and Config items |
 | **Verified Access** | Zero Trust access without VPN (now supports non-HTTP(S)) |
 | **Network Firewall** | Managed IDS/IPS with Suricata rules |
+| **Control Tower** | Multi-account governance with guardrails and landing zones |
+| **CloudTrail Insights** | Anomaly detection for management and data events (Nov 2025) |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
@@ -329,6 +336,12 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 29. [Lacework](https://www.lacework.com/) - Cloud security with anomaly detection
 30. [Aqua Security](https://www.aquasec.com/) - Cloud native security platform
 31. [CloudSploit](https://github.com/aquasecurity/cloudsploit) - Open source cloud security scanner
+
+### IaC Security Scanning
+32. [Checkov](https://github.com/bridgecrewio/checkov) - IaC static analysis (Terraform, CloudFormation, K8s)
+33. [Terrascan](https://github.com/tenable/terrascan) - IaC security scanner by Tenable
+34. [tfsec](https://github.com/aquasecurity/tfsec) - Terraform security scanner
+35. [KICS](https://github.com/Checkmarx/kics) - Keeping Infrastructure as Code Secure
 
 ---
 
