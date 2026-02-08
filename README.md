@@ -198,6 +198,11 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 40. [AWS IAM Privilege Escalation via Identity Center](https://www.cloudquery.io/blog/aws-priv-esc-identity-center) - CloudQuery
 41. [Cloud Native Security Tools 2026](https://www.tasrieit.com/blog/cloud-native-security-tools-2026-comprehensive-guide) - Comprehensive Guide
 42. [AWS Macie Data Discovery Guide](https://inventivehq.com/knowledge-base/aws/aws-macie-data-protection) - Sensitive Data Protection
+43. [AWS Secrets Manager Best Practices](https://blog.gitguardian.com/handling-secrets-with-aws-secrets-manager/) - GitGuardian
+44. [AWS SCP Examples by OU](https://towardsthecloud.com/aws-scp-examples) - 25+ Production-Ready Policies
+45. [AWS PrivateLink Security Guide](https://kindatechnical.com/aws-security-specialty/lesson-28-privatelink-and-secure-network-architecture.html) - Secure Network Architecture
+46. [AWS WAF Bot Control Guide](https://aws.amazon.com/waf/features/bot-control/) - Managed bot protection
+47. [AWS Control Tower Landing Zone](https://kindatechnical.com/aws-security/lesson-38-aws-control-tower.html) - Multi-account governance
 
 ---
 
@@ -280,6 +285,11 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **Network Firewall** | Managed IDS/IPS with Suricata rules |
 | **Control Tower** | Multi-account governance with guardrails and landing zones |
 | **CloudTrail Insights** | Anomaly detection for management and data events (Nov 2025) |
+| **Secrets Manager** | Secure secrets storage with automatic rotation |
+| **Organizations & SCPs** | Multi-account management with Service Control Policies |
+| **Resource Access Manager** | Cross-account resource sharing |
+| **PrivateLink** | Private connectivity to AWS services without internet |
+| **Firewall Manager** | Central WAF and security group management |
 | **Conformance Packs** | Pre-built Config rule collections ([GitHub](https://github.com/awslabs/aws-config-rules/tree/master/aws-config-conformance-packs)) |
 
 ### Security Auditing & Assessment
@@ -342,6 +352,11 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 33. [Terrascan](https://github.com/tenable/terrascan) - IaC security scanner by Tenable
 34. [tfsec](https://github.com/aquasecurity/tfsec) - Terraform security scanner
 35. [KICS](https://github.com/Checkmarx/kics) - Keeping Infrastructure as Code Secure
+
+### Runtime Security & SIEM
+36. [SIEM on Amazon OpenSearch](https://github.com/aws-samples/siem-on-amazon-opensearch-service) - AWS SIEM solution
+37. [Wazuh](https://wazuh.com/) - Open source XDR and SIEM
+38. [Elastic Security](https://www.elastic.co/security) - SIEM and endpoint security
 
 ---
 
