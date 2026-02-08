@@ -54,6 +54,7 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 > - [Russian Threat Group Alert](https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-russian-cyber-threat-group-targeting-western-critical-infrastructure/) - AWS Threat Intelligence on edge device attacks
 > - [CVE-2025-55182 React2Shell](https://aws.amazon.com/blogs/security/china-nexus-cyber-threat-groups-rapidly-exploit-react2shell-vulnerability-cve-2025-55182) - China-nexus threat groups exploitation
 > - [runc Container CVEs](https://aws.amazon.com/security/security-bulletins/rss/aws-2025-024/) - CVE-2025-31133, CVE-2025-52565, CVE-2025-52881
+> - [AI-Enhanced Security Innovations](https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025) - AI security agents, ML-driven threat detection
 
 ---
 
