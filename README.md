@@ -36,7 +36,7 @@ _Inspired by the [awesome](https://github.com/sindresorhus/awesome) list project
 
 ---
 
-## 🆕 What's New (2025-2026)
+## What's New (2025-2026)
 
 > **AWS re:Invent 2025 & re:Inforce 2025 Highlights:**
 > - [AWS Security Agent](https://aws.amazon.com/blogs/security/aws-launches-ai-enhanced-security-innovations-at-reinvent-2025) - AI-powered SAST from design to deployment (Preview)
@@ -271,7 +271,7 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 
 ## Security Tools
 
-### 🆕 AWS re:Invent 2025 New Services
+### AWS re:Invent 2025 New Services
 | Service | Description |
 |---------|-------------|
 | **AWS Security Agent** | AI-powered SAST, automated security reviews, context-aware pentesting (Preview) |
@@ -279,7 +279,7 @@ Official AWS security whitepapers provide foundational knowledge for cloud secur
 | **GuardDuty Extended** | Multi-stage attack detection for EC2, ECS, S3 |
 | **IAM Access Analyzer** | Customizable unused access analysis, guided revocation |
 
-> **⚠️ End of Life Notice:** Amazon Inspector Classic ends support **May 20, 2026**. [Migrate to Inspector v2](https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html)
+> **End of Life Notice:** Amazon Inspector Classic ends support **May 20, 2026**. [Migrate to Inspector v2](https://docs.aws.amazon.com/inspector/v1/userguide/inspector-migration.html)
 
 ### AWS Native Security Services
 [AWS Security Products](https://aws.amazon.com/products/security/) - Official AWS security service portfolio:
